@@ -50,11 +50,19 @@ body{
 .wheel .one{
     background-color: rgb(255, 0, 0);
     left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+
 
 .wheel .two{
     background-color:   rgb(255, 165, 0);
     transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
@@ -62,36 +70,54 @@ body{
     background-color:  rgb(255, 255, 0);
     transform: rotate(90deg);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .wheel .four{
     background-color: rgb(0, 128, 0);
     transform: rotate(135deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .wheel .five{
     background-color: rgb(0, 0, 255);
     transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .wheel .six{
     background-color:  rgb(75, 0, 130);
     transform: rotate(225deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .wheel .seven{
     background-color: rgb(148, 0, 211);
     transform: rotate(270deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 .wheel .eight{
     background-color: rgb(255, 192, 203);
     transform: rotate(315deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
