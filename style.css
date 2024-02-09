@@ -197,3 +197,24 @@ body{
     height: auto;
     margin-top: 5px;
 }
+
+
+@media (max-width: 1199px) {
+    .wheel{
+        width: 250px;
+    height: 250px;
+    }
+
+    .wheel div {
+        position: absolute;
+        height: 50%;
+        width: 140px;
+        transform-origin: bottom;
+        clip-path: polygon(100% 0, 50% 100%, 0 0);
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 55px;
+    }
+}
