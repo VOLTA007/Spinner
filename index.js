@@ -35,7 +35,6 @@ spinBtn.onclick = function(){
         wheel.style.transition = `transform 10s ${timingCurve}`;
         wheel.style.transform = "rotate(" + spinResults +"deg)";
         spinResults += Math.floor(Math.random() * (20000 - 5000 + 1)) + 5000;
-        console.log(spinResult);
     };
 }
 
